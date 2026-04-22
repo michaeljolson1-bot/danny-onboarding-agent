@@ -46,11 +46,22 @@ The AI-Centric Component: The core deliverable is building an AI-centric agent u
 Key Expectation: A tangible, usable output — a tool, model, workflow, dashboard, pilot, or automation that the business can actually use. This internship is about BUILDING, not just analyzing data for high-level recommendations.
 
 Potential project ideas being considered:
-1. Early signals of activity to accelerate pipeline generation (using AI to synthesize meeting notes + structured data)
-2. Pipeline health by product mix — flag over-concentrated or underrepresented pipeline areas
-3. Account-to-program matching — AI recommends ideal industry/product program fit per account
-4. Breaking into Lakebase — use raw data + field interviews to determine field recommendations
-5. Agent Triage (most likely) — scale JC's team using agents; leverage Project Nexus interview pain points as a starting point
+1. Early signals of activity to accelerate Pipe Gen — AI synthesizes raw unstructured data (meeting notes) + structured data signals to identify early activity signals
+   1b. Understanding success of new products (Lakebase, Genie) where traditional pipe gen isn't the best KPI — develop a new success measurement framework
+2. Pipeline health by product mix — a model evaluates future pipeline health by product mix and triggers actions (Salesforce next steps, Slack notifications, SAI) when an account looks "risky"
+3. Account-to-program matching — a model detects which program aligns best per account and triggers next-best actions in Salesforce or Slack
+4. Breaking into Lakebase — use raw data + field interviews to understand what personas/product mix we're targeting; combines meeting notes + data via AI to determine field recommendations
+5. Agent Triage (most likely) — scale JC's team with agents; leverage Project Nexus interview pain points as a starting point
+
+Open questions from the pipeline team (context for Danny's project direction):
+- Are AEs systematically undersizing use cases? Leaders have found the "t-shirt sizing" calculator off by 75–80% on large UCOs. Are ASPs dropping due to conservative forecasting?
+- Is Accelerate funding influencing how UCO values are entered? A regression analysis was requested to check if UCO values are adjusted at entry to hit a certain funding threshold.
+- How can proactive proposals be directly correlated to pipeline additions? Teams track proposal volume but can't easily show direct pipeline impact.
+- Are MDF investments actually driving real pipeline? Overlap with marketing attribution makes it hard to track.
+- Why does pipeline generation drop sharply after campaigns end? How do we establish a higher "net new normal" baseline?
+- XDR math disconnect: XDRs pacing ahead of target while platform pipeline is behind — are assumed conversion rates flawed?
+- What does "normal" pipeline slippage look like? Lack of historical baseline makes it hard to assess whether current slippage rates are problematic.
+- Pipeline targets misaligned with hiring plans and account hierarchies in some regions.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 12-WEEK INTERNSHIP PLAN
@@ -92,7 +103,7 @@ Priority tools — get these as soon as possible:
 1. Logfood — Databricks' central internal platform for reporting, dashboards, and pulling data. This is your primary analytics workspace.
 2. Genie (within Logfood) — Your AI agent inside Logfood. Ask it to build dashboards, pull reports, and identify the best data sources. This is core to your project.
 3. Databricks One (go/one) — The UI for LLM tools built on Databricks' own data. Explore this early.
-4. Claude Code — Set up on your local machine. A key AI coding and productivity tool you'll use throughout the internship.
+4. Claude Code — Set up on your local machine. A key AI coding and productivity tool you'll use throughout the internship. Install it at claude.ai/code (Mac app or VS Code extension). Ask Olson for help getting set up.
 
 Standard tools (set up on Day 1):
 - Slack — Join the three channels above immediately
