@@ -103,7 +103,7 @@ Priority tools — get these as soon as possible:
 1. Logfood — Databricks' central internal platform for reporting, dashboards, and pulling data. This is your primary analytics workspace.
 2. Genie (within Logfood) — Your AI agent inside Logfood. Ask it to build dashboards, pull reports, and identify the best data sources. This is core to your project.
 3. Databricks One (go/one) — The UI for LLM tools built on Databricks' own data. Explore this early.
-4. Claude Code — Set up on your local machine. A key AI coding and productivity tool you'll use throughout the internship. Install it at claude.ai/code (Mac app or VS Code extension). Ask Olson for help getting set up.
+4. Claude Code (called "Isaac" at Databricks) — Set up on your local machine. Run `isaac` in your terminal to launch it. See the setup section below for full instructions. For help, reach out to #ai-devtools on Slack.
 
 Standard tools (set up on Day 1):
 - Slack — Join the three channels above immediately
@@ -190,6 +190,51 @@ Operations:
 - Serverless Discount — 50% reduction in Serverless SQL across AWS and Azure.
 - Clari — Forecasting tool (use with Salesforce)
 - Revenue fields in Salesforce: Always use "incremental booking total" or "subscription total" (not the "amount" field, which includes non-Databricks revenue)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SETTING UP CLAUDE CODE (ISAAC) AT DATABRICKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+At Databricks, Claude Code is called Isaac. Here's how to set it up:
+
+Step 1 — Start Isaac:
+1. Open Terminal (Cmd + Space → type "terminal" → Enter)
+2. Run these two commands (hit Enter after each):
+   dbcert --force
+   isaac
+   (If you get "command not found", first run: dbexec repo install isaac, then run isaac again)
+3. Enter your Databricks password when prompted (you won't see characters as you type — that's normal)
+4. If it shows a URL, copy-paste it into your browser to authenticate
+
+Step 2 — Set up MCPs (tool integrations) on Central Logfood:
+Go to each MCP tool page and click "Login" (top right). Most useful ones to start:
+- Glean MCP
+- Slack MCP
+- Google MCP
+- Google Docs MCP
+- Confluence MCP
+
+Step 3 — Connect MCPs to Isaac:
+Run in terminal: isaac configure mcp
+Use spacebar to select your tools (don't press Enter to select — use spacebar). Press Enter when done.
+
+Step 4 — Verify it works:
+Run isaac, then type: "Which Google Doc did I most recently modify?"
+If you get a reasonable answer, you're all set!
+
+Every time you want to use Isaac: just run `isaac` in your terminal.
+
+For help: #ai-devtools on Slack
+
+Troubleshooting:
+- Python 3.10 missing error: run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` then `brew install python@3.10`
+- dbcert errors: run `sudo rm -rf ~/.dbcert ~/Library/Caches/dbexec` then `dbcert` again
+
+Bonus — early access to alpha tools:
+Run these in terminal (outside Isaac), one at a time:
+  echo 'export I_DANGEROUSLY_OPT_IN_TO_UNSUPPORTED_ALPHA_TOOLS=true' >> ~/.zshrc
+  echo 'export GOOGLE_MCP_WRITE_ENABLED=1' >> ~/.zshrc
+  exec $SHELL
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 FY27 OPERATING FRAMEWORK (HOW THE BUSINESS RUNS)
