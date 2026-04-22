@@ -22,8 +22,7 @@ TEAM STRUCTURE
 - Tommy McMahon — Leads Pipeline Strategy & Execution (Danny's direct team)
 - Marina Zhou — Leads Pipeline reporting; in-house AI expert
 - Michael Olson (Olson) — Danny's manager. Leads cross-team engagement, Programs, enablement, process & tooling
-- J.C. Collins (JC) — Tommy's boss; leads the entire Demand Gen org (includes Danny's team, Sales Development, Sales Dev Strat, and Scaled Prospecting)
-- Lewis — Exec sponsor (alongside JC) for Danny's internship
+- J.C. Collins (JC) — Tommy's boss; leads the entire Demand Gen org (includes Danny's team, Sales Development, Sales Dev Strat, and Scaled Prospecting). Exec sponsor for Danny's internship.
 - Omer Krugman — Danny's SF office buddy; goes into the SF office often, will help Danny figure out where to sit and meet the S&O crew
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -77,7 +76,7 @@ Weeks 3–10 — Flagship Project + Operating Exposure
 - Cross-functional involvement: ad hoc analyses, cross-functional meetings, network expansion, day-to-day operating cadence exposure, real GTM planning and execution
 
 Week 11 — Final Presentation
-- Readout to executive stakeholders (including Lewis and JC)
+- Readout to executive stakeholders (including JC)
 
 Week 12 — Handoff & Wrap
 - Documentation finalized
@@ -93,6 +92,7 @@ Priority tools — get these as soon as possible:
 1. Logfood — Databricks' central internal platform for reporting, dashboards, and pulling data. This is your primary analytics workspace.
 2. Genie (within Logfood) — Your AI agent inside Logfood. Ask it to build dashboards, pull reports, and identify the best data sources. This is core to your project.
 3. Databricks One (go/one) — The UI for LLM tools built on Databricks' own data. Explore this early.
+4. Claude Code — Set up on your local machine. A key AI coding and productivity tool you'll use throughout the internship.
 
 Standard tools (set up on Day 1):
 - Slack — Join the three channels above immediately
@@ -124,6 +124,9 @@ Use Cases & Pipeline Stages:
 
 Sales Team Roles:
 - AE (Account Executive) — Field sales. Owns account relationships and quota.
+  - Core AE — Standard field AE
+  - Core AE Ramping — Looks after ramping accounts ($12k–$120k)
+  - Core AE Strategic — Accounts with no real commit opportunity; lower ability to earn, raised accelerators
 - XDR / SDR / BDR / GDR — Sales Development Reps who generate pipeline
   - SDRs: pick up inbound leads
   - BDRs: outbound for core AEs (cold-calling)
@@ -132,13 +135,14 @@ Sales Team Roles:
 - SSA (Strategic SA) — SMEs for very specific use cases
 - DSA (Delivery SA) — Helps train the client to use the product
 - FLM / SLM — First/Second Line Manager
-- PS (Professional Services) — In-house implementation and training team
+- PS (Professional Services) — In-house implementation and training (our SAs). Distinct from Partners (external firms like KPMG, Deloitte, Accenture).
 
 Account Concepts:
 - Workspaces — Environments customers create within Databricks. Each has a unique Workspace ID. They house customer consumption — if removed, all revenue goes to zero.
+  - Workspace movement rules: Newly created or newly consuming workspaces (after Feb 1) can be moved freely. Older workspaces with quota impact <10% can move if both AEs/managers agree; >10% impact requires quota adjustment or waits for H2/next year.
 - DBX List — 5,000 companies globally that represent ~90% of Databricks' TAM. Primarily cloud-native companies with SQL users. The primary target list. Includes the "Top 700."
 - Enterprise vs. Emerging — Enterprise: >$1B company; Emerging: <$1B (general rule)
-- Global Accounts — 38 largest/most complex accounts. $1M minimum spend. Can have multiple AEs with quota splits (100%/50%/25%/25%). Set once a year.
+- Global Accounts — 38 largest/most complex accounts. $1M minimum spend. Can have multiple AEs with quota splits (100%/50%/25%/25%). Set once a year. AEs are credited for full global revenue but only forecast their own region.
 - Dual AEs — Two AEs on the same account, both getting 100% credit and 100% quota. Incentivizes fast account growth.
 - DNB (Digital Native Business) — Companies that exist solely on a tech stack (e.g., Airbnb, Skyscanner). Technically fluent customers.
 - Interim Accounts — AEs hold targets but not quota; paid at a separate rate.
@@ -147,9 +151,10 @@ Products & Revenue:
 - The 3 Strategic Products: GenAI, DBSQL, and UC (Unity Catalog)
 - Lakebase — A new Databricks product; pipeline gen metrics are different than traditional products
 - Commits vs. Consumption revenue — Commits = booked revenue (contracted); Consumption = delivered revenue (actually used)
+- Why accounts do a Commit: They get a discount, success credits, and carve-outs on iARR (15% for long deals, ~5% for standard). New business deals: ARR = iARR.
 - Commercial model: ~50% split globally between Azure and AWS. Azure is 80% in EMEA.
-- P3 Contract — A commit-type contract through Azure/Microsoft. Client pays upfront and consumes until depleted. Discounted. Databricks tries to convert P3s to direct commits.
-- Success Credits / FOTI (Flexible One-Time Investments) — Credits given to clients to use for PS/implementation of use cases or training.
+- P3 Contract — A commit-type contract through Azure/Microsoft. Client pays upfront and consumes until depleted. Discounted. Databricks tries to convert P3s to direct commits by offering investments as incentives.
+- Success Credits / FOTI (Flexible One-Time Investments) — Credits given to clients to use for PS/implementation of use cases or training. New logos: incremental revenue only (upsides + new business). Consumption: total $DBU.
 
 Gen AI Specific:
 - Hero Run — A training run to train a Gen AI model. Gets attributed to Gen AI revenue.
@@ -160,9 +165,10 @@ Gen AI Specific:
 Forecasting & Quota:
 - DS Model — Data Science model that forecasts $DBU over 3 months for the consumption model.
 - My Consumption Plan — New forecasting methodology where AEs flag use cases expected to go live.
-- Quota structure: Targets are account-level → baseline set from July–Sept consumption → 30% haircut applied → Product quotas added (GenAI, DBSQL, UC)
+- Quota structure: Targets are account-level → baseline set from July–Sept consumption → 30% haircut applied → Product quotas added (GenAI, DBSQL, UC). DBSQL/UC/GenAI uplifts applied (UC and GenAI at 50%; DBSQL at 25%); AEs retire 1.25x–1.5x of their quota against these products.
 - Baseline: Monthly baseline is set and then given a 30% haircut. If account goes under baseline, difference set to zero.
-- Splits — Quota/revenue splits between AEs. Handled on the back-end; don't affect forecasting.
+- Splits — Quota/revenue splits between AEs. Handled on the back-end; don't affect forecasting. New splits can be added mid-year with approval from Lewis, Sarah Delph, and JC.
+- ACC and manager quota: FLMs only get an ACC quota if >50% of their team are hunter AEs. Plan weight: >50% hunters → 70% consumption / 30% ACC; otherwise 100% consumption.
 
 Operations:
 - FreshService Ticket — How to submit ops requests (account moves, data changes, etc.)
@@ -173,6 +179,52 @@ Operations:
 - Serverless Discount — 50% reduction in Serverless SQL across AWS and Azure.
 - Clari — Forecasting tool (use with Salesforce)
 - Revenue fields in Salesforce: Always use "incremental booking total" or "subscription total" (not the "amount" field, which includes non-Databricks revenue)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FY27 OPERATING FRAMEWORK (HOW THE BUSINESS RUNS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This is the Central Strategy-approved operating framework — how Databricks executes across key pillars. Danny's team (Pipeline Performance Strategy) owns Consumption & Pipeline Excellence.
+
+Key Metrics by Area:
+- Consumption: $DBU Growth & Forecast, QoQ/YoY Declining Accounts, Account Cohort $DBU Growth
+- UCO Pipeline: Pipeline Generation, Coverage, Progression/Velocity
+- Commit/Booking: Incremental Booking Forecast, Renewals On-Time Rate, Upsell Multiple, SMART Commit
+- Product: Product $DBU Growth, Product Blockers
+- Hunter (new logos): Activated Logo Forecast, DBX Penetration, DBX Activated Logo Forecast
+- Account Engagement: Executive Engagement, Partner Engagement, Investments, User Growth, POCs/Workshops
+
+UCO (Use Case Opportunity) — How Pipeline Works:
+- A UCO is the atomic unit of pipeline, tied to a specific customer problem and path to production
+- Types: New, Migration, Upgrade, One-Off (each has different forecast implications)
+- Stages anchored in three pillars: Discovery & Qualification → Technical & Business Win → Onboarding Excellence
+- MEDDPICC is the qualification framework used to assess deal maturity
+- go/sizing — tool for sizing a UCO's expected run-rate and cost impact
+- XL UCOs have system-enforced exit criteria before they can progress
+
+Commit Mechanics (deeper detail):
+- A commit is a contractual pre-commitment to Databricks consumption in exchange for pricing incentives
+- SMART Commit = tied to a validated demand plan (real or highly probable usage)
+- Key commit metrics: New Business Booking, Upsell Booking, Total Booking, Upsell Multiple, On-Time Rate, Renewal Rate
+- Downsell: gap between what customer is expected to renew vs. what's available to renew (ATR)
+- Bridge Deal: <12-month term used to bridge between contracts; ARR not annualized
+- Co-Term: Upsell/amendment that adds commit while keeping same contract end date; ARR recorded as iARR
+
+Hunter Motion (New Logo Acquisition):
+- Focus: Activation (new Activated Logos) + Penetration (multi-solution footprint)
+- "First Value" = customer deploys initial production use case
+- go/hunter — central portal for all Hunter enablement and assets
+- go/tophat — primary interface for tracking Hunter activities
+- TopHAT + MCP AL (go/myconsumptionplan) for AL forecasting
+
+Key go/ Links:
+- go/gtmhub — GTM Analytics Hub; source of truth for consumption, pipeline, and leaderboard metrics
+- go/consumption — Consumption Excellence resources
+- go/pricing — Responsible pricing and discounting guidance
+- go/SMARTcommit — SMART Commit framework
+- go/Deal-Calculator — Deal sizing tool
+- go/hunter — Hunter motion portal
+- go/tophat — Hunter activity tracking
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TIPS FOR SUCCESS
