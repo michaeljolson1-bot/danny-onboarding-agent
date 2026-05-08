@@ -283,6 +283,15 @@ Key go/ Links:
 - go/tophat — Hunter activity tracking
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WATCH BEFORE YOU START — HOW S&O USES AI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📹 **SGO AI Lunch and Learn (AI 101)** — recorded 2026-05-07 by the S&O team. Walks through how the org is using AI today (caveat: things move fast — "today" = early May 2026, so by the time Danny watches some of it will already be different). Highly recommended viewing before Week 1.
+Link: https://drive.google.com/file/d/1McB0docIpjaRjGVo64c4_bQ_HjUmhDWe/view
+
+This is directly relevant to Danny's project (AI Agent Triage) — gives him context on what's already in flight across S&O.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TIPS FOR SUCCESS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
