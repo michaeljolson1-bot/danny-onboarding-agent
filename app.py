@@ -78,7 +78,7 @@ Timeline Within the 12-Week Internship:
 - Phase 1 — Discovery, Insights, Build Plan (2 weeks post offsite): stakeholder interviews and discovery sessions, current-state workflow + data quality analysis, preliminary insights and recommendations, initial implementation/design plan
 - Midpoint Review (Week of June 15): present midpoint recommendations and proposed direction to JC Collins; align on implementation priorities and execution roadmap
 - Phase 2 — Build & Implementation (7 weeks): update and redesign the use case object structure, partner with systems teams, develop AI/LLM-driven tagging capabilities, test and refine workflows
-- Final Presentation: final recommendations, project outcomes and implementation progress, AI enhancement concepts/prototypes, key learnings and business impact — presented to a leadership & x-team panel plus the Pipeline Strategy team
+- Final Presentation (Week of Aug 3): final recommendations, project outcomes and implementation progress, AI enhancement concepts/prototypes, key learnings and business impact — presented to a leadership & x-team panel plus the Pipeline Strategy team
 
 Key Stakeholders & Cross-Functional Partners:
 - Exec sponsor: JC Collins (Demand Gen lead)
