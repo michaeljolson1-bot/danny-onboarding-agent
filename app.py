@@ -37,31 +37,56 @@ SLACK CHANNELS TO JOIN RIGHT AWAY
 DANNY'S FLAGSHIP PROJECT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Project Title: GTM Strategy — AI Agent Triage
+Project Title: Enhancing Lost UCO Insights
 
-Problem Statement: Identify opportunities to scale the GTM Strategy organization in an AI-first world by streamlining work with AI agents. Danny will interview GTM Strategy teams across functions and build an agent over the summer, gaining exposure to GTM Strategy functions, the Databricks product suite, and demonstrating how to operate in an AI-first environment.
+Project Overview: As Databricks continues to scale its consumption business, improving visibility into lost UCOs (Use Case Opportunities) is critical to driving better pipeline insights, prioritization, and strategic decision-making. Today, the organization lacks consistent and actionable insight into why UCOs are lost, limiting the ability to identify patterns, improve forecasting accuracy, and influence go-to-market strategy. Danny's project will focus on redesigning and enhancing the way loss reasons are captured, categorized, and analyzed within the use case object.
 
-The AI-Centric Component: The core deliverable is building an AI-centric agent using Databricks products. Outside the core project, Danny will embed in day-to-day GTM Strategy operations, using Databricks products and AI tools for analysis and building AI-driven solutions.
+Problem Statement: Current loss-reason tracking for UCOs presents several challenges:
+- Existing loss reasons/buckets don't provide enough granularity or strategic insight to understand broader trends across pipeline and UCO losses
+- Many UCOs land in the "not qualified" / "cleanup" bucket — UCOs should not be allowed to be "not qualified" after U3 stage
+- Goal is to minimize the "other" bucket
+- Manual user selection without system-driven recommendation leads to low-quality, inconsistent tagging
+- As a result, teams can't reliably identify root causes of lost opportunities or derive scalable insights to improve execution
 
-Key Expectation: A tangible, usable output — a tool, model, workflow, dashboard, pilot, or automation that the business can actually use. This internship is about BUILDING, not just analyzing data for high-level recommendations.
+Three Primary Workstreams:
 
-Potential project ideas being considered:
-1. Early signals of activity to accelerate Pipe Gen — AI synthesizes raw unstructured data (meeting notes) + structured data signals to identify early activity signals
-   1b. Understanding success of new products (Lakebase, Genie) where traditional pipe gen isn't the best KPI — develop a new success measurement framework
-2. Pipeline health by product mix — a model evaluates future pipeline health by product mix and triggers actions (Salesforce next steps, Slack notifications, SAI) when an account looks "risky"
-3. Account-to-program matching — a model detects which program aligns best per account and triggers next-best actions in Salesforce or Slack
-4. Breaking into Lakebase — use raw data + field interviews to understand what personas/product mix we're targeting; combines meeting notes + data via AI to determine field recommendations
-5. Agent Triage (most likely) — scale JC's team with agents; leverage Project Nexus interview pain points as a starting point
+1. Cross-Functional Discovery & Feedback Collection
+   - Conduct stakeholder and field (AE/SA) interviews
+   - Gather feedback on current pain points and reporting gaps
+   - Understand what loss categorizations would be most actionable and field-relevant
+   - Develop recommendations for a more effective loss-reason framework
 
-Open questions from the pipeline team (context for Danny's project direction):
-- Are AEs systematically undersizing use cases? Leaders have found the "t-shirt sizing" calculator off by 75–80% on large UCOs. Are ASPs dropping due to conservative forecasting?
-- Is Accelerate funding influencing how UCO values are entered? A regression analysis was requested to check if UCO values are adjusted at entry to hit a certain funding threshold.
-- How can proactive proposals be directly correlated to pipeline additions? Teams track proposal volume but can't easily show direct pipeline impact.
-- Are MDF investments actually driving real pipeline? Overlap with marketing attribution makes it hard to track.
-- Why does pipeline generation drop sharply after campaigns end? How do we establish a higher "net new normal" baseline?
-- XDR math disconnect: XDRs pacing ahead of target while platform pipeline is behind — are assumed conversion rates flawed?
-- What does "normal" pipeline slippage look like? Lack of historical baseline makes it hard to assess whether current slippage rates are problematic.
-- Pipeline targets misaligned with hiring plans and account hierarchies in some regions.
+2. Redesign of Use Case Object Loss Taxonomy
+   - Redesign the use case object dropdown structure
+   - Create improved loss buckets and categorization logic
+   - Ensure scalability, reporting usability, and operational alignment
+   - Improve downstream analytics and reporting quality
+
+3. AI-Driven Loss Reason Enhancement
+   - Auto-suggested loss reasons within Go/SAI workflows
+   - Intelligent tagging recommendations based on opportunity context
+   - Automated categorization of UCO losses using structured and unstructured data
+   - Final AI implementation scope will be determined during project discovery
+
+Expected Outcomes:
+- Improve consistency and accuracy of UCO loss tracking
+- Deliver more actionable pipeline and consumption insights
+- Enable scalable reporting on loss trends and root causes
+- Establish a foundation for AI-assisted opportunity tagging and workflow automation
+
+Timeline Within the 12-Week Internship:
+- Phase 1 — Discovery, Insights, Build Plan (2 weeks post offsite): stakeholder interviews and discovery sessions, current-state workflow + data quality analysis, preliminary insights and recommendations, initial implementation/design plan
+- Midpoint Review (Week of June 15): present midpoint recommendations and proposed direction to JC Collins; align on implementation priorities and execution roadmap
+- Phase 2 — Build & Implementation (7 weeks): update and redesign the use case object structure, partner with systems teams, develop AI/LLM-driven tagging capabilities, test and refine workflows
+- Final Presentation: final recommendations, project outcomes and implementation progress, AI enhancement concepts/prototypes, key learnings and business impact — presented to a leadership & x-team panel plus the Pipeline Strategy team
+
+Key Stakeholders & Cross-Functional Partners:
+- Exec sponsor: JC Collins (Demand Gen lead)
+- Pipeline Strategy & Execution: Tommy McMahon, Michael Olson, Marina Zhou
+- Sales Strategy: Lewis Hinch + team
+- X-Teams, Systems, and AE/SA field interview partners — to be identified during discovery
+
+Source of truth for the flagship project doc: "Danny Flagship Project: Enhancing Lost UCO Insights" in Google Drive.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 12-WEEK INTERNSHIP PLAN
@@ -336,7 +361,7 @@ with st.sidebar:
     )
 
     st.markdown("**Your Project**")
-    st.markdown("GTM Strategy — AI Agent Triage")
+    st.markdown("Enhancing Lost UCO Insights")
 
     st.markdown("**Key Tools**")
     st.markdown(
