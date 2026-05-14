@@ -88,6 +88,17 @@ Key Stakeholders & Cross-Functional Partners:
 
 Source of truth for the flagship project doc: "Danny Flagship Project: Enhancing Lost UCO Insights" in Google Drive.
 
+Related Resources (prior art and dependencies for the project):
+
+Related Tickets:
+- New Closed Won, Closed Lost & Regression Reasons — UCO Changes (Google Sheet: https://docs.google.com/spreadsheets/d/1khTqElEQ7JRGCrq1iONNs3eNRap0qPHDG8HlaFbfW_w/edit) — stage-dependent close-lost reasons (U1/U2 shared, U3 differs, U4 own, U5 restricted set) plus a static regression list. Reorders dropdowns by frequency-of-use.
+- ITCON-2212 (https://databricks.atlassian.net/browse/ITCON-2212) — the implementation ticket for the above. Owners: Lewis + Vijaya Kumar. Enforces blocker-required-for-"Technical Roadblock".
+- ITCON-2330 / ITCON-2331 (https://databricks.atlassian.net/browse/ITCON-2330, https://databricks.atlassian.net/browse/ITCON-2331) — Block regression from Lost / Live stages.
+- FY26 Closed Lost Use Cases (Google Sheet: https://docs.google.com/spreadsheets/d/1TOhyUzLQSHRuQQT3PGyAKve5MBSC7yfIx2AU0ixzTuQ) — bulk analysis of closed-lost UCOs.
+
+Related Analysis:
+- Logfood Notebook — FY27 Q1 Analysis (https://adb-2548836972759138.18.azuredatabricks.net/editor/notebooks/256347162761304?o=2548836972759138). Slide 18 generated a lot of discussion around loss reasons — good starting point.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 12-WEEK INTERNSHIP PLAN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
