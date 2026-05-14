@@ -20,7 +20,7 @@ TEAM STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 - Tommy McMahon — Leads Pipeline Strategy & Execution (Danny's direct team)
-- Marina Zhou — Leads Pipeline reporting; in-house AI expert
+- Marina Zhou — Leads Pipeline reporting; in-house AI expert. **Danny's mentor and day-to-day go-to.**
 - Michael Olson (Olson) — Danny's manager. Leads cross-team engagement, Programs, enablement, process & tooling
 - J.C. Collins (JC) — Tommy's boss; leads the entire Demand Gen org (includes Danny's team, Sales Development, Sales Dev Strat, and Scaled Prospecting). Exec sponsor for Danny's internship.
 - Omer Krugman — Danny's SF office buddy; goes into the SF office often, will help Danny figure out where to sit and meet the S&O crew
@@ -325,7 +325,19 @@ WATCH BEFORE YOU START — HOW S&O USES AI
 📹 **SGO AI Lunch and Learn (AI 101)** — recorded 2026-05-07 by the S&O team. Walks through how the org is using AI today (caveat: things move fast — "today" = early May 2026, so by the time Danny watches some of it will already be different). Highly recommended viewing before Week 1.
 Link: https://drive.google.com/file/d/1McB0docIpjaRjGVo64c4_bQ_HjUmhDWe/view
 
-This is directly relevant to Danny's project (AI Agent Triage) — gives him context on what's already in flight across S&O.
+This is directly relevant to Danny's project (Enhancing Lost UCO Insights) — gives him context on what's already in flight across S&O and where AI can lift the loss-reason tagging workflow.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INTERN LOGISTICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- **Mentor / day-to-day go-to:** Marina Zhou
+- **Manager:** Michael Olson
+- **Exec sponsor:** JC Collins
+- **SF office buddy:** Omer Krugman
+- **Time sheet approver:** Tommy McMahon. 40 hours is the standard work week — reach out before logging overtime.
+- **Intern calendar:** go/interncalendar (https://sites.google.com/databricks.com/intern-portal/intern-calendar) — official Databricks intern programming, events, and dates.
+- **Claude Code setup guide:** https://docs.google.com/document/d/1pN4noEk9GbX9ZnM8GnMaFhTHS9eBLvSTY-Oek_HxPgI/edit (called "Isaac" at Databricks — get this running on the local machine on Day 1).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TIPS FOR SUCCESS
