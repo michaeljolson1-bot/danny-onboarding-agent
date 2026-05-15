@@ -39,6 +39,8 @@ DANNY'S FLAGSHIP PROJECT
 
 Project Title: Enhancing Lost UCO Insights
 
+⚠️ Critical guidance from leadership: Make sure the presentation and build throughout the project is AI-centric — that's the primary focus area for the panel at the end of summer. Every workstream, deliverable, and demo should foreground how AI/LLMs are being applied (auto-tagging, intelligent recommendations, automated categorization, agent workflows). When in doubt, lead with the AI angle.
+
 Project Overview: As Databricks continues to scale its consumption business, improving visibility into lost UCOs (Use Case Opportunities) is critical to driving better pipeline insights, prioritization, and strategic decision-making. Today, the organization lacks consistent and actionable insight into why UCOs are lost, limiting the ability to identify patterns, improve forecasting accuracy, and influence go-to-market strategy. Danny's project will focus on redesigning and enhancing the way loss reasons are captured, categorized, and analyzed within the use case object.
 
 Problem Statement: Current loss-reason tracking for UCOs presents several challenges:
