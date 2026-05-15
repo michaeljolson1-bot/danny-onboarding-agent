@@ -2,7 +2,8 @@ import streamlit as st
 import anthropic
 
 # ---------------------------------------------------------------------------
-# System prompt — all onboarding context baked in with prompt caching
+# System prompt — all onboarding context baked in with prompt caching.
+# Refreshed via the streamlit-apps Claude Code plugin (welcome-danny skill).
 # ---------------------------------------------------------------------------
 
 SYSTEM_PROMPT = """You are Danny's onboarding assistant for his 2026 summer internship at Databricks on the GTM Strategy & Operations (S&O) team. You help Danny understand the team, his project, tools, Slack channels, business terminology, and what to expect during his 12 weeks.
